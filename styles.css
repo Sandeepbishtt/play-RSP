@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: #24272e;
+}
+header{
+    background-color: white;
+    padding: 20px;
+}
+header h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.scoreboard{
+    border: 3px solid white;
+    width: 163px ;
+    margin: 20px auto;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+}
+.badge{
+    background-color: rgb(226, 49, 49);
+    padding: 2px 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#user-level{
+    position: absolute;
+    top: 19px;
+    left: -28px;
+}
+#computer-level{
+    position: absolute;
+    top: 19px;
+    left: 129px;
+}
+.result{
+    color: white;
+    font-size: 40px;
+}
+p{
+ text-align: center;
+ font-weight: bold;
+ font-family: sans-serif;
+
+}
+.choices{
+    margin: 20px 50px;
+    text-align: center;
+    
+}
+.choice{ 
+    margin: 20px 40px;
+    display: inline;
+}
+ img{
+    border: 2px solid rgb(121, 61, 235);
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+img:hover{
+    background-color: rgb(160, 64, 204);
+    cursor: pointer;
+}
+#action{
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.greenglow img{
+    border: 2px solid green ;
+}
+.redglow img{
+    border: 2px solid red   ;
+}
+.greyglow img {
+    border : 2px solid grey;
+}
